@@ -1,7 +1,7 @@
 # DMICF
 This repo is the official implementation for the paper "Dual-Perspective Disentangled Multi-Intent Alignment for Enhanced Collaborative Filtering"
 
-**For every dataset used in our experiments, we provide the corresponding model checkpoints saved at each training epoch**, facilitating detailed analysis and ensuring reproducibility.
+###**For every dataset used in our experiments, we provide the corresponding model checkpoints saved at each training epoch**, facilitating detailed analysis and ensuring reproducibility.
 
 Moreover, for the Amazon dataset, **we offer the full implementation for user interaction group partitioning, along with tools to perform comprehensive quantitative and qualitative analyses of intent disentanglement**.
 
