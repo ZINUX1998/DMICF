@@ -1,5 +1,5 @@
 # DMICF
-This repo is the official implementation for the paper "Dual-Perspective Disentangled Multi-Intent Alignment for Enhanced Collaborative Filtering"
+This repo is the official implementation for the paper "[Dual-Perspective Disentangled Multi-Intent Alignment for Enhanced Collaborative Filtering](https://export.arxiv.org/abs/2506.11538)"
 
 ### **For every dataset used in our experiments, we provide the corresponding model checkpoints saved at each training epoch**, facilitating detailed analysis and ensuring reproducibility.
 
