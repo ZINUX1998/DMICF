@@ -11,7 +11,7 @@ For the ML-10M and TMALL datasets, we provide the complete preprocessed data. Re
 ## Requirements
 
 ```
-**Complete environment setup can be found in the environment.yaml file**.
+################### Complete environment setup can be found in the environment.yaml file. ########################
 
 scikit-learn==1.1.2
 torch==2.1.0
