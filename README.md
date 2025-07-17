@@ -5,7 +5,7 @@ This repo is the official implementation for the paper "[Dual-Perspective Disent
 
 ### Moreover, for the Amazon dataset, **we offer the full implementation for user interaction group partitioning, along with tools to perform comprehensive quantitative and qualitative analyses of intent disentanglement**.
 
-For the ML-10M and TMALL datasets, we provide the complete preprocessed data. Readers interested in reproducing our analysis can do so by copying epoch_27_sparsity.py and example_test.py into the respective dataset directories and executing them.
+For the ML-10M and TMALL datasets, we provide the complete preprocessed data. Readers interested in reproducing our analysis can do so by copying epoch_27_sparsity.py and example_test.py into the respective directories and executing them.
 
 
 ## Requirements
