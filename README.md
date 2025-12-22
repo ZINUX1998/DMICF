@@ -1,5 +1,5 @@
 # DMICF
-This repo is the official implementation for the paper "[Dual-Perspective Disentangled Multi-Intent Alignment for Enhanced Collaborative Filtering](https://export.arxiv.org/abs/2506.11538)"
+This repo is the official implementation for the paper **Dual-Perspective Disentangled Multi-Intent Alignment for Enhanced Collaborative Filtering**
 
 ### **For every dataset used in our experiments, we provide the corresponding model checkpoints saved at each training epoch**, facilitating detailed analysis and ensuring reproducibility.
 
@@ -17,7 +17,7 @@ scipy==1.9.3
 ```
 
 ## Datasets
-We directly employ the three representative datasets reflecting typical interaction distributions provided by [LightGCL](https://github.com/HKUDS/LightGCL/tree/main/data).
+We directly employ the three representative datasets reflecting typical interaction distributions provided by **LightGCL**.
 
 ## Preprocessing
 For each dataset, we use the same hyperparameters, so only a minor modification to the dataset specification in the evaluation is required.
