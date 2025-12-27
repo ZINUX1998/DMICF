@@ -5,6 +5,8 @@ This repo is the official implementation for the paper **Dual-Perspective Disent
 
 ### Moreover, **we offer the full implementation for user interaction group partitioning, along with tools to perform comprehensive quantitative and qualitative analyses of intent disentanglement**.
 
+### All experiments are conducted on an Ubuntu server equipped with an RTX 4090D GPU.
+
 ## Requirements
 
 ```
