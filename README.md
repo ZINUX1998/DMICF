@@ -7,6 +7,8 @@ This repo is the official implementation for the paper **Dual-Perspective Disent
 
 ### All experiments are conducted on an Ubuntu server equipped with an RTX 4090D GPU.
 
+### We construct high-order user–user and item–item homogeneous graphs using the codebase provided by IPCCF. However, since the original implementation is relatively inefficient for large-scale datasets, we additionally provide a GPU-accelerated version (tmall/uu_grapg.py) to improve computational efficiency.
+
 ## Requirements
 
 ```
