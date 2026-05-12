@@ -1,35 +1,76 @@
-# DMICF
-This repo is the official implementation for the paper **Dual-Perspective Disentangled Multi-Intent Alignment for Enhanced Collaborative Filtering**
+<div align="center">
 
-### **For every dataset used in our experiments, we provide the corresponding model checkpoints saved at each training epoch**, facilitating detailed analysis and ensuring reproducibility.
+# 🌌 DMICF
 
-### Moreover, **we offer the full implementation for user interaction group partitioning, along with tools to perform comprehensive quantitative and qualitative analyses of intent disentanglement**.
+### Dual-Perspective Disentangled Multi-Intent Alignment for Enhanced Collaborative Filtering
 
-### All experiments are conducted on an Ubuntu server equipped with an RTX 4090D GPU.
+<p align="center">
+  <img src="https://img.shields.io/badge/PyTorch-2.1.0-red?style=flat-square&logo=pytorch">
+  <img src="https://img.shields.io/badge/Python-3.9+-blue?style=flat-square&logo=python">
+  <img src="https://img.shields.io/badge/Platform-Ubuntu-green?style=flat-square&logo=ubuntu">
+  <img src="https://img.shields.io/badge/GPU-RTX4090D-76B900?style=flat-square&logo=nvidia">
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square">
+</p>
 
-### We construct high-order user–user and item–item homogeneous graphs using the codebase provided by IPCCF. However, since the original implementation is relatively inefficient for large-scale datasets, we additionally provide a GPU-accelerated version (ml10m/uu_graph.py) to improve computational efficiency.
+<p align="center">
+  Official PyTorch implementation of the paper:<br>
+  <b>Dual-Perspective Disentangled Multi-Intent Alignment for Enhanced Collaborative Filtering</b>
+</p>
 
-## Requirements
+</div>
 
-```
-################### Complete environment setup can be found in the environment.yml file. ########################
-scikit-learn==1.1.2
-torch==2.1.0
-numpy==1.22.3
-pandas==1.5.0
-scipy==1.9.3
-```
+---
 
-## Datasets
-We directly employ the three representative datasets reflecting typical interaction distributions provided by **LightGCL**.
+# ✨ Overview
 
-## Preprocessing
-For each dataset, we use the same hyperparameters, so only a minor modification to the dataset specification in the evaluation is required.
+DMICF is a collaborative filtering framework that models user--item interactions through:
 
-```shell
-# Generate the trained model.
-python train.py
+- 🔷 **Dual-perspective structural encoding**
+- 🧠 **Prototype-aware variational multi-intent modeling**
+- 🎯 **Interaction-driven semantic alignment**
+- ⚡ **Late fusion interaction prediction**
 
-# Evaluate on the test set.
-python eval_results.py
-```
+Unlike conventional unified-space recommenders, DMICF explicitly preserves complementary user-centric and item-centric semantics prior to fusion, enabling more expressive and disentangled interaction modeling.
+
+---
+
+# 🚀 Key Features
+
+## 🔁 Reproducibility-Oriented Release
+
+For every dataset used in our experiments, we provide:
+
+- ✅ Trained checkpoints for **every training epoch**
+- ✅ Complete evaluation scripts
+- ✅ Reproducible training configurations
+- ✅ Full experimental settings
+
+This facilitates:
+
+- detailed training dynamics analysis,
+- result verification,
+- fair comparison and reproducibility.
+
+---
+
+## 🧩 Intent Disentanglement Analysis Toolkit
+
+We additionally release:
+
+- 📌 Complete implementation of **user interaction group partitioning**
+- 📊 Quantitative disentanglement evaluation tools
+- 🎨 Qualitative intent visualization utilities
+- 🔍 Semantic alignment analysis scripts
+
+These tools support comprehensive analysis of learned latent intents and interaction semantics.
+
+---
+
+## ⚡ Efficient High-Order Graph Construction
+
+DMICF constructs high-order user--user and item--item homogeneous graphs following the strategy adopted in IPCCF.
+
+To improve scalability on large-scale datasets, we further provide a **GPU-accelerated graph construction implementation**:
+
+```text
+ml10m/uu_graph.py
