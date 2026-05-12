@@ -74,3 +74,28 @@ To improve scalability on large-scale datasets, we further provide a **GPU-accel
 
 ```text
 ml10m/uu_graph.py
+
+which significantly improves preprocessing efficiency compared to the original implementation.
+
+---
+
+# 🖥️ Environment
+
+All experiments are conducted on:
+
+- Ubuntu Server
+- NVIDIA RTX 4090D GPU
+
+The complete dependency configuration is provided in:
+
+```text
+environment.yml
+
+Main dependencies include:
+
+```python
+torch==2.1.0
+numpy==1.22.3
+scipy==1.9.3
+pandas==1.5.0
+scikit-learn==1.1.2
