@@ -90,6 +90,7 @@ The complete dependency configuration is provided in:
 
 ```text
 environment.yml
+```
 
 Main dependencies include:
 
@@ -99,3 +100,68 @@ numpy==1.22.3
 scipy==1.9.3
 pandas==1.5.0
 scikit-learn==1.1.2
+```
+# 📂 Datasets
+
+We directly adopt the three representative recommendation datasets released by **LightGCL**, covering diverse interaction distributions and sparsity characteristics.
+
+---
+
+# ⚙️ Quick Start
+
+## 🔧 Training
+
+```bash
+python train.py
+```
+## 📈 Evaluation
+
+```bash
+python eval_results.py
+```
+# 📝 Notes
+
+- DMICF uses a unified experimental configuration across all datasets.
+- Only minimal dataset-specific modifications are required during evaluation.
+- All reported experimental results are averaged over five independent runs.
+
+---
+
+# 📌 Repository Structure
+
+```text
+DMICF/
+├── train.py
+├── eval_results.py
+├── environment.yml
+├── models/
+├── datasets/
+├── utils/
+├── analysis/
+├── checkpoints/
+└── ml10m/
+    └── uu_graph.py
+```
+# 📖 Citation
+
+If you find this repository useful for your research, please consider citing our paper:
+
+```bibtex
+@article{DMICF,
+  title={Dual-Perspective Disentangled Multi-Intent Alignment for Enhanced Collaborative Filtering},
+  author={Anonymous Authors},
+  journal={Under Review},
+  year={2026}
+}
+```
+# 🙏 Acknowledgement
+
+Part of the high-order graph construction pipeline is inspired by the implementation of IPCCF. We thank the authors for making their code publicly available.
+
+---
+
+<div align="center">
+
+### ⭐ If you find this project useful, please consider giving it a star! ⭐
+
+</div>
