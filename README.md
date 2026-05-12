@@ -74,7 +74,7 @@ To improve scalability on large-scale datasets, we further provide a **GPU-accel
 
 ```text
 ml10m/uu_graph.py
-
+```
 which significantly improves preprocessing efficiency compared to the original implementation.
 
 ---
