@@ -127,21 +127,6 @@ python eval_results.py
 
 ---
 
-# 📌 Repository Structure
-
-```text
-DMICF/
-├── train.py
-├── eval_results.py
-├── environment.yml
-├── models/
-├── datasets/
-├── utils/
-├── analysis/
-├── checkpoints/
-└── ml10m/
-    └── uu_graph.py
-```
 # 📖 Citation
 
 If you find this repository useful for your research, please consider citing our paper:
