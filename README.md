@@ -103,7 +103,7 @@ scikit-learn==1.1.2
 ```
 # 📂 Datasets
 
-We directly adopt the three representative recommendation datasets released by **LightGCL**, covering diverse interaction distributions and sparsity characteristics.
+We directly adopt the three representative recommendation datasets released by [**LightGCL**](https://github.com/HKUDS/LightGCL/tree/main/data), covering diverse interaction distributions and sparsity characteristics.
 
 ---
 
