@@ -2,7 +2,7 @@
 
 # 🌌 DMICF
 
-### Dual-Perspective Disentangled Multi-Intent Alignment for Enhanced Collaborative Filtering
+### Dual-Perspective Interaction Modeling for Enhanced Collaborative Filtering
 
 <p align="center">
   <img src="https://img.shields.io/badge/PyTorch-2.1.0-red?style=flat-square&logo=pytorch">
@@ -14,7 +14,7 @@
 
 <p align="center">
   Official PyTorch implementation of the paper:<br>
-  <b>Dual-Perspective Disentangled Multi-Intent Alignment for Enhanced Collaborative Filtering</b>
+  <b>Dual-Perspective Interaction Modeling for Enhanced Collaborative Filtering</b>
 </p>
 
 </div>
@@ -133,7 +133,7 @@ If you find this repository useful for your research, please consider citing our
 
 ```bibtex
 @article{DMICF,
-  title={Dual-Perspective Disentangled Multi-Intent Alignment for Enhanced Collaborative Filtering},
+  title={Dual-Perspective Interaction Modeling for Enhanced Collaborative Filtering},
   author={Anonymous Authors},
   journal={Under Review},
   year={2026}
